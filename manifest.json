@@ -1,0 +1,20 @@
+{
+  "name": "hide-twitter-views",
+  "author": "k4nade",
+  "description": "chrome extension to hide twitter views.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [],
+      "matches": []
+    }
+  ]
+}
